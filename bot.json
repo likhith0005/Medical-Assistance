@@ -1,0 +1,43 @@
+{
+    "greetings": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I do for you?",
+        "Greetings! How may I help you?"
+    ],
+    "goodbyes": [
+        "Goodbye! Feel better soon!",
+        "Take care! Come back if you need more assistance.",
+        "Bye! Stay healthy!"
+    ],
+    "medical_issues": [
+        {
+            "name": "Headache",
+            "symptoms": ["pain in head", "dizziness", "nausea"],
+            "treatments": [
+                {
+                    "type": "Medication",
+                    "options": ["Paracetamol", "Ibuprofen"]
+                },
+                {
+                    "type": "Home Remedy",
+                    "options": ["Rest", "Hydration"]
+                }
+            ]
+        },
+        {
+            "name": "Fever",
+            "symptoms": ["high temperature", "chills", "sweating"],
+            "treatments": [
+                {
+                    "type": "Medication",
+                    "options": ["Acetaminophen", "Ibuprofen"]
+                },
+                {
+                    "type": "Home Remedy",
+                    "options": ["Cold Compress", "Hydration"]
+                }
+            ]
+        }
+    ]
+}
+
